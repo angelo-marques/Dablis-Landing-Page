@@ -1,3 +1,21 @@
 h1.font-weight-bold.text-12.line-height-2.mb-3.text-shadow {
     text-shadow: 1px 1px 0 black;
 }
+
+.btn-with-arrow span, .btn-with-arrow-solid span {
+    background-color: #ccc;
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-left: 10px;
+    transition: all 0.1s linear;
+}
+
+.btn-with-arrow i, .btn-with-arrow-solid i {
+    color: #FFF;
+    font-size: 30px;
+    top: 6px;
+    position: relative;
+}
